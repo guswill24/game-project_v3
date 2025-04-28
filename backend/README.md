@@ -338,3 +338,14 @@ En `generate_sources.js`:
 - El script de Blender ya hace este ajuste automáticamente.
 
 ---
+# Backend
+MONGO_URI=mongodb://127.0.0.1:27017/threejs_blocks
+PORT=3001
+API_URL=http://192.168.20.9:3001/api/blocks/batch
+
+# Frontend
+VITE_API_URL=http://localhost:3001
+
+
+
+
